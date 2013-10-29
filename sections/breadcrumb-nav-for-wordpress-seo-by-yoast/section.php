@@ -6,14 +6,14 @@
 	Description: Built for WordPress SEO by Yoast - this section will display breadcrumb navigation for better usability and SEO benefit. It requires the installation of the plugin "WordPress SEO" by Yoast and creates a PageLines DMS section that can be placed via drag & drop.
 	Class Name: WordPressSEOBreadcrumb
 	Demo:
-	Version: 1.0
+	Version: 1.1
 	Filter: nav
 	v3: true
 */
 
 class WordPressSEOBreadcrumb extends PageLinesSection {
 
-	const version = '1.0'; //first version
+	const version = '1.1'; //for dms 1.1
 
 
 // RUNS IN <HEAD> 
@@ -50,6 +50,7 @@ class WordPressSEOBreadcrumb extends PageLinesSection {
 		$options[]    = array(
 			'key'        => 'breadcrumb_welcome',
 			'type'       => 'template',
+			'col'	     =>  1,
 			'title'      => __('Welcome to Breadcrumb NAV Section','breadcrumb-nav-for-wordpress-seo-by-yoast'),
 			'template'   => $this->welcome()
 		);
@@ -62,6 +63,7 @@ class WordPressSEOBreadcrumb extends PageLinesSection {
 
 			'key'			=> 'set_breadcrumb',
 			'type' 			=> 'multi',
+			'col'			=> 2,
 			'label' 	=> __( 'Instructions', 'breadcrumb-nav-for-wordpress-seo-by-yoast' ),
 			'opts'	=> array(
 				array(
