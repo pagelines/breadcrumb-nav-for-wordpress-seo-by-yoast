@@ -8,12 +8,14 @@
 	Demo:
 	Version: 1.1
 	Filter: nav
+	Loading: active
+	Cloning: true
 	v3: true
 */
 
 class WordPressSEOBreadcrumb extends PageLinesSection {
 
-	const version = '1.1'; //for dms 1.1
+	const version = '1.1'; 
 
 
 // RUNS IN <HEAD> 
