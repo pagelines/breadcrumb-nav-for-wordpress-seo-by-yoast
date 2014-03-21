@@ -8,6 +8,10 @@ will display breadcrumb navigation for better usability and SEO benefit.
 It requires the installation of the plugin "WordPress SEO" by Yoast
 and creates a PageLines DMS section that can be placed via drag & drop.
 
+Get in contact for more information
+info@onlineprofiler.de
+www.onlineprofiler.de
+
 == Changelog ==
 
 = 1.0 =
@@ -15,3 +19,6 @@ and creates a PageLines DMS section that can be placed via drag & drop.
 
 = 1.1 =
 * DMS 1.1 ready
+
+= 1.2 =
+* DMS 2 ready
