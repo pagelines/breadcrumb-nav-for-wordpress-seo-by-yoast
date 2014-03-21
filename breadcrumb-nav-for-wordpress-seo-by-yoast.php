@@ -6,7 +6,7 @@
 	Description: Built for WordPress SEO by Yoast - this section will display breadcrumb navigation for better usability and SEO benefit. It requires the installation of the plugin "WordPress SEO" by Yoast and creates a PageLines DMS section that can be placed via drag & drop.
 	Class Name: WordPressSEOBreadcrumb
 	Demo:
-	Version: 1.1
+	Version: 1.2
 	Filter: nav
 	PageLines: true
 	v3: true
